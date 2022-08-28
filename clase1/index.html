@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pagina nucba</title>
+    </head>
+    <body>
+        <h1>Titulo de la Pagina facherita</h1>
+        <h2>puedo hacer variar</h2>
+        <h3>tamaño de la fuente</h3>
+        <h4>hasta h6</h4>
+        <h5>esto es h5</h5>
+        <h6>esto es h6 Max.</h6>   
+        <p> aweno,<b>Kheee?</b> ipsum dolor sit amet consectetur adipisicing elit. Doloribus vero repudiandae animi minima recusandae. Ducimus assumenda quasi aspernatur porro fugit praesentium amet eos, unde voluptatibus! Exercitationem cum optio id quis.</p>
+        <h2>Enlaces</h2>
+        <a href="https://www.google.com/" target="_blank">Ir a Google Nueva pestaña</a>
+        <br>
+        <a href="https://www.google.com/">Ir a Google en la misma pagina</a>
+        <br>
+        <!--esto es un link A OTRA PAGINA -->
+        <a href="productos.html">ir a pagina productos</a>
+        <br>
+        <a href="https://es.wikipedia.org/wiki/Lionel_Messi"target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAwBjQBRDj2xgHdPxZcXRVuAdpOdReP9kGsQ&usqp=CAU" alt="imagen de messi wikipedia"></a>
+        <h2>Listas</h2>
+        <ul>
+            <Li>pollo</Li>
+            <li>sal</li>
+            <li>azucar</li>
+        </ul>
+        <ol>
+            <li>
+                limpiar las verduras
+                <ul>
+                    <li>lechuga</li>
+                    <li>tomate</li>
+                </ul>
+            </li>
+            <li>cortar las verdurar</li>
+            <li>hacer la ensalada</li>
+        </ol>
+        <h2>Imagenes</h2>
+        <h3>imagen desde url</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAwBjQBRDj2xgHdPxZcXRVuAdpOdReP9kGsQ&usqp=CAU" alt="Foto de Lionel Messi">
+        <br>
+        <a href="https://es.wikipedia.org/wiki/Lionel_Messi">ir a la pagina de wikipedia de messi</a>
+        <h3>imagen desde local</h3>
+        <img src="./archivos/messi.jpg" alt="foto de messi en barsa">
+        <h2>Tablas</h2>
+        <table>
+            <tr>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Mirecoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <td>clase</td>
+                <td>Gym</td>
+                <td>Clase2</td>
+                <td>Tabajo</td>
+                <td>Salir</td>
+            </tr>
+            <tr>
+                <td>Gym</td>
+                <td>Jugar</td>
+                <td>Gym</td>
+                <td>Estudiar</td>
+                <td>Jugar</td>
+            </tr>
+        </table>
+        <h2>Formulario</h2>
+            <form>
+                <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre"placeholder="Ingresa tu nombre">
+                </div>
+                <div>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido"disabled placeholder="Ingresa tu apellido*">
+                </div>
+                <div>
+                <label for="password">Password</label>
+                <input type="password" name="" id="password"placeholder="Ingresa tu Password*" required>
+                </div>
+                <div>
+                <label for="dni">DNI</label>
+                <input type="number" id="dni" required placeholder="Ingresa tu DNI">
+                </div>
+                <div>
+                <label for="telefono">Telefono</label>
+                <input type="tel" name="" id="telefono"placeholder="Ingresa tu numero de telefono"><!--Sirve para telefono-->
+                </div>
+                <div>
+                <label for="email">Correo electronico</label>
+                <input type="email"id=email placeholder="Ingresa tu correo">
+                </div>
+                <div>
+                    <p>A que se dedica?</p>
+                    <input type="radio" name="profesion" id="empleado">
+                    <label for="empleado">Empleado</label>
+                    <input type="radio" name="profesion" id="estudiante">
+                    <label for="estudiante">Estudiante</label>
+                    <input type="radio" name="profesion2" id="autonomo">
+                    <label for="autonomo">Autonomo</label>
+                    <input type="radio" name="profesion" id="jubilado">
+                    <label for="jubilado">Jubilado</label>
+                </div>
+                <div>
+                    <br></br>
+                    Seleccione su edad
+                    <select name="edad" id="edad"
+                     oion value="1822">18 a 22</option>
+                        <option value="1822">18 a 22</option>
+                        <option value="2330">23 a 30</option>
+                        <option value="3150">31 a 50</option>
+                        <option value="mas51">mas de 50</option> 
+                    </select>
+                </div>
+                <div> <br></br>
+                    <label for="terminos"required>Acepta terminos y condiciones?</label>
+                    <input type="checkbox" id="terminos"checked>
+                </div>
+                <div>
+                    <!--Eviar formulario usando input-->
+                    <!--<input type="submit"value="Eviar formulario">-->
+
+                    <!--Eviar formulario usando button-->
+                    <button type="sumbit">ENVIAR</button><br></br>
+                </div>
+                </form>
+
+                </div>
+                <label for="texto">soy un area de texto</label><br> </br>
+                <textarea id="texto" cols="20" rows="3"> </textarea>
+
+                
+            
+    </body>
+</html>
